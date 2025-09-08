@@ -33,10 +33,11 @@ This project leverages the YouTube Data API v3 to fetch channel statistics, vide
 ---
 
 ## 📂 Project Structure
+```
 ├── YouTube_EDA.ipynb        # Jupyter notebook with full workflow
 ├── Video_Details(SonySAB).csv  # Exported dataset for Sony SAB channel
 ├── README.md                # Project documentation
-
+```
 
 ---
 
@@ -51,7 +52,10 @@ This project leverages the YouTube Data API v3 to fetch channel statistics, vide
   pip install pandas seaborn google-api-python-client matplotlib
   ```
 3. Get your YouTube Data API key from Google Cloud Console.
-. Replace the placeholder API key in the script: api_key = "YOUR_API_KEY"
+. Replace the placeholder API key in the script:
+  ```
+  api_key = "YOUR_API_KEY"
+  ```
 
 📊 Analysis Highlights
 🔹 Channel Statistics
