@@ -59,36 +59,36 @@ This project leverages the YouTube Data API v3 to fetch channel statistics, vide
 
 📊 Analysis Highlights
 🔹 Channel Statistics
-Comparison of subscribers, views, and total uploaded videos for multiple channels:
-Sony SAB
-Lionsgate Movies
-Marvel Entertainment
-DC
+  - Comparison of subscribers, views, and total uploaded videos for multiple channels:
+  - Sony SAB
+  - Lionsgate Movies
+  - Marvel Entertainment
+  - DC
+  - Sony Pictures Entertainment
 
-Sony Pictures Entertainment
 🔹 Top 10 Most Viewed Videos (Sony SAB)
-Bar chart of the most popular videos ranked by views.
+  - Bar chart of the most popular videos ranked by views.
 
 🔹 Monthly Upload Pattern
-Distribution of uploaded videos across months of the year.
+  - Distribution of uploaded videos across months of the year.
 
 📈 Sample Visualizations
-Subscribers per channel
-Views per channel
-Top 10 videos by views
-Monthly video uploads
-(Plots generated with Seaborn)
+  - Subscribers per channel
+  - Views per channel
+  - Top 10 videos by views
+  - Monthly video uploads
+  - (Plots generated with Seaborn)
 
 📑 Exported Data
-Video_Details(SonySAB).csv → Clean dataset containing Sony SAB video details (views, likes, comments, publish date, etc.).
+  - Video_Details(SonySAB).csv → Clean dataset containing Sony SAB video details (views, likes, comments, publish date, etc.).
 
 🔮 Future Improvements
-Add Sentiment Analysis on video comments.
-Automate data refresh with scheduled scripts.
-Build a dashboard (Streamlit/Plotly Dash).
-Extend analysis to more YouTube channels.
+  - Add Sentiment Analysis on video comments.
+  - Automate data refresh with scheduled scripts.
+  - Build a dashboard (Streamlit/Plotly Dash).
+  - Extend analysis to more YouTube channels.
 
 🙌 Acknowledgements
-YouTube Data API v3
-Pandas
-Seaborn
+  - YouTube Data API v3
+  - Pandas
+  - Seaborn
